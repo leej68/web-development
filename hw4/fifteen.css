@@ -1,0 +1,31 @@
+/*creates the formatting of the page but aligning text and creating borders*/
+
+body, #puzzlearea, #shufflebutton {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.dragon {
+	background-image: url("background.jpg");
+	position: absolute;
+	cursor: default;
+	border: 5px solid black;
+	font-size: 40pt;
+	height: 90px;
+	width: 90px;
+}
+
+#puzzlearea {
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 400px;
+}
+
+.highlight {
+	border-color:  red;
+	color: red;
+	cursor: pointer;
+}

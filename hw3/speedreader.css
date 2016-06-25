@@ -1,0 +1,67 @@
+/*Justin Lee
+Section AH
+speedreader.css covers the stylistic aspect of the speedreader page such as spacing of columns and the color of the page 
+*/
+a img {
+	width: 70px;
+}
+
+body {
+	background-color: #EAF6F6;
+	font-family: Garamond;
+	font-size: 12pt;
+}
+
+button {
+	background-color: white;
+	border: solid gray 1px;
+	width: 70px;
+}
+
+fieldset {
+	border: none;
+	display: inline-block;
+	text-align: left;
+	vertical-align: text-top;
+}
+
+h1, #controls, #text {
+	text-align: center;
+}
+
+legend {
+	border-bottom: solid 1px #8EBEBE;
+	font-weight: bold;
+	padding: 2px;
+	width: 100%;
+}
+
+textarea {
+	border: solid gray 1px;
+}
+
+:disabled {
+	background-color: lightgray;
+}
+
+#space {
+	background-color: #FFFFFF;
+	border: 2px solid #8EBEBE; 
+	border-radius: 5px;
+	font-size: 36pt;
+	font-family: monospace;
+	height: 100px;
+	line-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 80%;
+}
+
+#validator {
+	bottom: 5px;
+	float: left;
+	left: 5px;
+	position: absolute;
+}
+

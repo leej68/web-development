@@ -1,0 +1,40 @@
+/*Justin lee
+  CSE 154
+
+  Stlyes for pie.html
+*/
+body{
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+	background-image: url("https://webster.cs.washington.edu/images/silverware.jpg");
+}
+
+blockquote {
+	font-style: italic;
+	background-color: #FFFFA8
+}
+
+h1, h2 {
+	color: #A4A400;
+	text-decoration: underline;
+	font-weight: normal;
+	background-color: #F0F0F0;
+	font-size: 18pt;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 22pt;
+	text-align: center;
+}
+
+pre {
+	font-family: monospace;
+}
+
+
+ul{
+	list-style-image: url('https://webster.cs.washington.edu/images/pie-icon.gif');
+}
+

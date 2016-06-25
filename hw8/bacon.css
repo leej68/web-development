@@ -1,0 +1,47 @@
+/*
+	Name: Justin Lee
+	CSE 154
+	Section: AH by Helen Ung
+	March 8, 2016
+	Assignment #8
+	This file modifies the php pages such as the background and the alignment of the columns.
+*/
+body {
+	font: 10pt Verdana, Arial, sans-serif;
+	margin: 0pt;
+}
+
+form, table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:nth-child(2n+2){
+	background-color: #dad9d4;
+}
+
+table {
+	border-collapse:collapse;
+	border: 1px solid #dad9d4;
+	margin-bottom: 10px;
+}
+
+#banner, #w3c {
+    background-color: #100000;
+    color: white;
+    padding: 5px;
+}
+
+#main {
+	text-align: center;
+	padding: 1em;
+}
+
+form {
+	width: 24em;
+}
+
+#title {
+	padding-left: 10em;
+	padding-right: 10em;
+}

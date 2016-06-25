@@ -1,0 +1,127 @@
+/*Justin Lee
+Section AH
+Movie.css covers the stylistic aspect of the Teenage mutant ninja turtles movie review page, such
+as the spacing of columns and the color of the page 
+*/
+
+
+body  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(https://webster.cs.washington.edu/images/moviebg.png);
+}
+
+dl {
+	padding-right: 10pt;
+	padding-left: 10pt;
+}
+
+dt{
+	margin-top: 10pt;
+	font-weight: bold;
+}
+
+h1{
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	text-shadow: 3px 3px #999999;
+}
+
+#content, .cover {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.cover {
+	background-image: url(https://webster.cs.washington.edu/images/rancidbannerbg.png);
+	text-align: center;
+	height: 50px;
+}
+
+#content {
+	width: 800px;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 20px;
+	overflow: hidden;
+	background-color: #EEEEEE;
+}
+
+.column{
+	float: left;
+	width: 47%;
+	margin-left: 2%;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-bottom: 0px;
+}
+
+#left {
+	width: 550px;
+}
+
+.review, h1 {
+	font-family:  Georgia, "Times New Roman", serif;
+}
+
+.review{
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	border-radius: 20px;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.review img, .reviewer img {
+	float: left;
+	padding-right: 5px;
+
+}
+.reviewer{
+	margin-bottom: 20pt;
+	overflow: hidden;
+}
+
+#right, #footer {
+	background-color: #A2B964;
+}
+
+#right {
+	float: right;
+	width: 250px;
+}
+
+#score {
+	height: 83px;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-image: url(https://webster.cs.washington.edu/images/rottenlargebg.png);
+}
+
+#score img{
+	vertical-align: bottom;
+}
+
+#validator {
+	float: right;
+	clear: left;
+}
+
+#right ul {
+	list-style: none;
+	padding: 0;
+}
+
+.type{
+	font-style: italic;
+}
